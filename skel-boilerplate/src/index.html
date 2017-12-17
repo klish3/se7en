@@ -5,78 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <title>Skel Boiler Plate</title>
 </head>
 
 <body>
     <!-- Nav -->
     <div class="row nav-bar u-full-width">
-            <div class="u-full-width">
-                <img class="u-pull-left logo" src="img/logo.png" alt="logo"> 
-                <span class="brand-name">Brand Name</span>
-    
-                <a class="u-pull-right menu-button" href="">
-                    <i data-feather="menu"></i>
-                </a>
-            </div>
+        <div class="u-full-width">
+            <img class="u-pull-left logo" src="img/logo.png" alt="logo"> 
+            <span class="brand-name">Brand Name</span>
+
+            <a class="u-pull-right menu-button" href="">
+                <i data-feather="menu"></i>
+            </a>
         </div>
+    </div>
 
     <!-- Content -->
     <div class="container content">
         <div class="row u-full-width">
-            kdlajslk
-        </div>
-    </div>
+            <!-- Elements -->
+            <!-- FEATHER ICONS -->
+            <label for="">Feather Icons</label>
+            <i data-feather="circle"></i>
+            <br>
+            <!-- FONTAWESOME -->
+            <label for="">Font Awesome</label>
+            <i class="fa fa-bath" aria-hidden="true"></i>
+            <br>
+            <hr>
+            <!-- HEADING -->
+            <h1>Heading</h1>
+            <h2>Heading</h2>
+            <h3>Heading</h3>
+            <h4>Heading</h4>
+            <h5>Heading</h5>
+            <h6>Heading</h6>
 
-    <i data-feather="circle"></i>
-    <i class="fa fa-bath" aria-hidden="true"></i>
 
+            <h2 class="u-pull-left">Left</h2>
+            <h2 class="u-pull-right">Right</h2>
+            <div class="u-cf"></div>
 
-    <!-- HEADING -->
-    <h1>Heading</h1>
-    <h2>Heading</h2>
-    <h3>Heading</h3>
-    <h4>Heading</h4>
-    <h5>Heading</h5>
-    <h6>Heading</h6>
+            <!-- BUTTON -->
+            <button>Button</button>
+            <input type="submit" value="Submit">
+            <input type="submit" value="Submit">
+            <a href="" class="button">Link</a>
+            <div class="u-cf"></div>
 
+            <!-- Primary BUTTONS -->
+            <button class="button-primary">Button</button>
+            <input class="button-primary" type="submit" value="Submit">
+            <input class="button-primary" type="submit" value="Submit">
+            <a href="" class="button button-primary">Link</a>
+            <div class="u-cf"></div>
 
-    <h2 class="u-pull-left">Left</h2>
-    <h2 class="u-pull-right">Right</h2>
-    <div class="u-cf"></div>
+            <!-- FULL WIDTH (not just for buttons) -->
+            <button class="u-full-width button-primary">Full Width Button</button>
 
-    <!-- BUTTON -->
-    <button>Button</button>
-    <input type="submit" value="Submit">
-    <input type="submit" value="Submit">
-    <a href="" class="button">Link</a>
-    <div class="u-cf"></div>
-
-    <!-- Primary BUTTONS -->
-    <button class="button-primary">Button</button>
-    <input class="button-primary" type="submit" value="Submit">
-    <input class="button-primary" type="submit" value="Submit">
-    <a href="" class="button button-primary">Link</a>
-    <div class="u-cf"></div>
-
-    <!-- FULL WIDTH (not just for buttons) -->
-    <button class="u-full-width button-primary">Full Width Button</button>
-
-    <!-- LISTS -->
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services
+            <!-- LISTS -->
             <ul>
-                <li>Salad Toss</li>
-                <li>Oil Check</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services
+                    <ul>
+                        <li>Salad Toss</li>
+                        <li>Oil Check</li>
+                    </ul>
+                </li>
+                <li>Contact</li>
             </ul>
-        </li>
-        <li>Contact</li>
-    </ul>
 
-    <!-- CODE BLOCK -->
-    <pre>
+            <!-- CODE BLOCK -->
+            <pre>
         <code>
             Happiness(mood:Emotion):Emotion {
                 if (mood != 'Happy'){
@@ -87,99 +90,104 @@
         </code>
     </pre>
 
-    <!-- TABLES -->
-    <table class="u-full-width">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Jill</td>
-            <td>Smith</td>
-            <td>50</td>
-        </tr>
-        <tr>
-            <td>Eve</td>
-            <td>Jackson</td>
-            <td>94</td>
-        </tr>
-    </table>
+            <!-- TABLES -->
+            <table class="u-full-width">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+            </table>
 
 
 
-    <!-- FORM -->
+            <!-- FORM -->
 
-    <label for="">First name:</label>
-    <input class="u-full-width" type="text" name="firstname" value="Mickey">
-    <div class="u-cf"></div>
-    <label for="">Last name:</label>
-    <input class="u-full-width" type="text" name="lastname" value="Mouse">
-    <div class="u-cf"></div>
-    <textarea name="" id="" class="u-full-width" cols="30" rows="10"></textarea>
-    <div class="u-cf"></div>
-    <select name="" id="" class="u-full-width">
-        <option value="">Please Select</option>
-        <option value=""></option>
-        <option value=""></option>
-    </select>
-    <div class="u-cf"></div>
-    <label for="">
-        <input type="checkbox" name="" id="">
-        <span class="label-body">subscribe to this page</span>
-    </label>
-    <div class="u-cf"></div>
-    <input type="submit" value="Submit">
-    </form>
+            <label for="">First name:</label>
+            <input class="u-full-width" type="text" name="firstname" value="Mickey">
+            <div class="u-cf"></div>
+            <label for="">Last name:</label>
+            <input class="u-full-width" type="text" name="lastname" value="Mouse">
+            <div class="u-cf"></div>
+            <textarea name="" id="" class="u-full-width" cols="30" rows="10"></textarea>
+            <div class="u-cf"></div>
+            <select name="" id="" class="u-full-width">
+                <option value="">Please Select</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <div class="u-cf"></div>
+            <label for="">
+                <input type="checkbox" name="" id="">
+                <span class="label-body">subscribe to this page</span>
+            </label>
+            <div class="u-cf"></div>
+            <input type="submit" value="Submit">
+            </form>
 
-    <!-- GRID -->
+            <!-- GRID -->
 
-    <div class="row">
-        <div class="eight columns">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-            quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae cum. Enim
-            atque libero aperiam laborum earum?
-        </div>
-        <div class="four columns">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-            quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae cum. Enim
-            atque libero aperiam laborum earum?
+            <div class="row">
+                <div class="eight columns">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
+                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
+                    cum. Enim atque libero aperiam laborum earum?
+                </div>
+                <div class="four columns">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
+                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
+                    cum. Enim atque libero aperiam laborum earum?
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="six columns">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
+                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
+                    cum. Enim atque libero aperiam laborum earum?
+                </div>
+                <div class="six columns">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
+                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
+                    cum. Enim atque libero aperiam laborum earum?
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="one-third column">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
+                </div>
+                <div class="one-third column">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
+                </div>
+                <div class="one-third column">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="one-half column">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
+                </div>
+                <div class="one-half column">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
+                </div>
+            </div>
+
+
         </div>
     </div>
-    <br>
-    <div class="row">
-        <div class="six columns">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-            quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae cum. Enim
-            atque libero aperiam laborum earum?
-        </div>
-        <div class="six columns">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-            quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae cum. Enim
-            atque libero aperiam laborum earum?
-        </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="one-third column">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-        </div>
-        <div class="one-third column">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-        </div>
-        <div class="one-third column">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-        </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="one-half column">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-        </div>
-        <div class="one-half column">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-        </div>
-    </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 <script>
