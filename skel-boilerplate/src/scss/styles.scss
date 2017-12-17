@@ -1,10 +1,11 @@
-@import 'normalize/variables';
-@import 'normalize/vertical-rhythm';
-@import 'normalize/normalize-mixin';
+@import 'external/normalize/variables';
+@import 'external/normalize/vertical-rhythm';
+@import 'external/normalize/normalize-mixin';
 
-// 
-@import 'reset';
-@import "skel";
+//
+@import 'external/fontawesome/font-awesome'; 
+@import 'external/reset';
+@import "external/skel";
 
 body {
     margin: 8px;
