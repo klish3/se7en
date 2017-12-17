@@ -1,12 +1,17 @@
 import 'jquery';
 import '../scss/styles.scss';
-
+const feather = require('feather-icons')
 import {secretButton, secretParagraph } from './dom-loader';
 
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
 updateSecretParagraph();
+
+$( document ).ready(function() {
+    feather.icons.x.toSvg()
+    alert('runPackages');
+});
 
 function toggleSecretState() {
     showSecret = !showSecret;

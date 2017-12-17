@@ -19,3 +19,39 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
+
+
+// Nav Bar
+.nav-bar {
+    margin: 0 -8px;
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    padding: 1em;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    box-shadow:2px 2px 5px 1px #eee;
+
+    .menu-button {
+        padding-top: 5px;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+        
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .brand-name {
+        line-height: 30px;
+        padding-left: 10px;
+        font-size: 1.3rem;
+    }
+}
+
+// Conatiner
+.content {
+    margin-top: 100px;
+}
