@@ -1,0 +1,33 @@
+
+/* 
+
+Mobile first queries
+
+--------------------
+
+Desktop HD: 1200px
+Desktop: 1000px
+Tablet: 750px
+Phablet: 550px
+Mobile: 400px
+
+*/
+
+/* Smaller than mobile */
+@media (max-width: 400px) {
+    // .logo {
+    //     display: none;
+    // }
+}
+
+/* Smaller than phablet */
+@media (max-width: 550px) {}
+
+/* Smaller than tablet */
+@media (max-width: 750px) {}
+
+/* Smaller than desktop */
+@media (max-width: 1000px) {}
+
+/* Smaller than Desktop HD */
+@media (max-width: 1200px) {}
