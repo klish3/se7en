@@ -4,11 +4,23 @@ Inspired to improve on my skills and touch up on some old ones I set out to crea
 into stand along webpage's, honoring the respective technology the page was built on.
 
 
-# References:
+# Tech Used
 
--------------------------
+HTML5  
+CSS [ Sass | Less ]  
+Javascript  
 
-FontAwesome
-Skel
-Jquery
-Webpack
+FontAwesome  
+
+Jquery  
+Webpack  
+
+Skel  
+Bootstrap  
+
+Angular  
+React  
+
+# Read about the process at Meduim
+
+# See the Designs on Behance 
