@@ -9,9 +9,11 @@
 @import "external/skel";
 // 
 @import "mixins";
+@import "colors";
+@import "fonts";
 
 body {
-    margin: 8px;
+    margin: 8px 0;
 }
 
 //
@@ -26,14 +28,13 @@ body {
 
 // Nav Bar
 .nav-bar {
-    margin: 0 -8px;
     position: fixed;
     top: 0px;
     z-index: 9;
     padding: 1em;
     border-bottom: 1px solid #eee;
     background-color: #fff;
-    box-shadow:2px 2px 5px 1px #eee;
+    box-shadow:2px 2px 5px 1px rgba(283,283,283,.5);
 
     .menu-button {
         padding-top: 5px;
@@ -57,4 +58,29 @@ body {
 // Conatiner
 .content {
     margin-top: 100px;
+}
+.kli-hero{
+
+    min-height: 100vh;
+    margin: 0 -8px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    .logo {
+        vertical-align: middle;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+
+        padding-top: 17%;
+        padding-bottom: 2em;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+.bg-black{
+    background-color: $black;
 }
