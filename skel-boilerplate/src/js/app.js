@@ -1,17 +1,11 @@
 import 'jquery';
 import '../scss/styles.scss';
-const feather = require('feather-icons')
 import {secretButton, secretParagraph } from './dom-loader';
 
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
 updateSecretParagraph();
-
-$( document ).ready(function() {
-    feather.icons.x.toSvg()
-    alert('runPackages');
-});
 
 function toggleSecretState() {
     showSecret = !showSecret;
@@ -34,7 +28,23 @@ function updateSecretParagraph() {
         secretParagraph.style.display = 'none';
     }
 }
+//jQuery
+$(document).ready(function () {
+    $('#secret-paragraph').css('color', 'red');
+    $('p').click(function () {
+        alert('Jquery Works');
+    });
 
-$("p").click(function(){
-    alert('Jquery Works');
+    $('#menu-open-button').click(function () {
+        
+        $("#mySidenav").css('width','250px');
+        // document.getElementById("mySidenav").style.width = "250px";
+    });
+
+    $('#menu-close-button').click(function () {
+        
+        $("#mySidenav").css('width','0px');
+        // document.getElementById("mySidenav").style.width = "0";
+    });
+
 });
