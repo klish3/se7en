@@ -35,16 +35,13 @@ $(document).ready(function () {
         alert('Jquery Works');
     });
 
+    //menu
     $('#menu-open-button').click(function () {
-        
         $("#mySidenav").css('width','250px');
-        // document.getElementById("mySidenav").style.width = "250px";
     });
 
     $('#menu-close-button').click(function () {
-        
         $("#mySidenav").css('width','0px');
-        // document.getElementById("mySidenav").style.width = "0";
     });
 
 });
