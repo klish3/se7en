@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+//weights
+$thin: 300;
+$regular: 400;
+$bold: 900;
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-weight: $thin;
+}
