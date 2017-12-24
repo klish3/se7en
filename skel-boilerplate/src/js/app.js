@@ -1,5 +1,7 @@
 import 'jquery';
 import '../scss/styles.scss';
+import 'font-awesome/scss/font-awesome.scss';
+
 import {secretButton, secretParagraph } from './dom-loader';
 
 var showSecret = false;

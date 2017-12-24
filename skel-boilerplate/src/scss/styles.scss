@@ -3,7 +3,6 @@
 @import 'external/normalize/normalize-mixin';
 
 //
-@import 'external/fontawesome/font-awesome';
 @import 'external/animate';
 @import 'external/reset';
 @import "external/skel";
@@ -59,6 +58,15 @@ body {
 // Conatiner
 .content {
     margin-top: 100px;
+}
+.half-kli-hero{
+    min-height: 50vh;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    h1 {
+        padding-top: 10%;
+    }
 }
 .kli-hero{
 
