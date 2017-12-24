@@ -6,7 +6,8 @@
 @import 'external/animate';
 @import 'external/reset';
 @import "external/skel";
-// 
+//
+@import "skel";
 @import "sidenav";
 @import "mixins";
 @import "colors";
@@ -14,16 +15,9 @@
 
 body {
     margin: 8px 0;
+    overflow-x: hidden;
 }
 
-//
-.columns,
-.column {
-    background: #eee;
-    border: 1px #b9b9b9;
-    border-radius: 10px;
-    padding: 10px;
-}
 
 
 // Nav Bar
@@ -31,13 +25,13 @@ body {
     position: fixed;
     top: 0px;
     z-index: 1;
-    padding: 1em;
-    border-bottom: 1px solid #eee;
-    background-color: #fff;
-    box-shadow:2px 2px 5px 1px rgba(283,283,283,.5);
+    padding: 1em;    
+    background-color: transparent;
+    // box-shadow:2px 2px 5px 1px rgba(283,283,283,.5);
 
     .menu-button {
         padding-top: 5px;
+        color: $black;
     }
     .logo{
         width: 30px;
@@ -63,35 +57,121 @@ body {
     min-height: 50vh;
     text-align: center;
     font-size: 2rem;
-    color: #fff;
+    color: $white;
     h1 {
         padding-top: 10%;
     }
+}
+.kli-jumbo {
+    min-height: 100vh;
+    font-size: 2rem;
+    color: $black;
+    padding: 10%;
 }
 .kli-hero{
 
     min-height: 100vh;
     text-align: center;
     font-size: 2rem;
-    color: #fff;
+    color: $black;
+    padding-top: 10%;
     .logo {
         vertical-align: middle;
         width: 200px;
         height: 200px;
         margin: 0 auto;
 
-        padding-top: 17%;
+        
         padding-bottom: 2em;
         img{
             width: 100%;
             height: 100%;
         }
     }
-    h1 {
-        padding-top: 25%;
+
+    .hero-text {
+        height: 5em;
+        text-align: right;
+        padding-right: 5em;
+        .heading {
+            width: 100%;
+            margin-bottom: 0rem;
+            &:nth-child(1){
+                font-size: 3.7em;
+            }
+        }
+        .quote {
+            margin-top: 5rem;
+            color: $lightGrey;
+            font-size: 2em;
+        }
+    }
+    .hero-image {
+        width: 1000px;
+        img {
+            width: 100%;
+        }
     }
 
 }
 .bg-black{
     background-color: $black;
+}
+
+.bg-white{
+    background-color: $white;
+}
+
+.story-image{
+    width: 400px;
+    image {
+        width: 100%;    
+    }
+}
+.story-text {
+    padding-top: 6em;
+    p {
+        font-size: 24px;
+    }
+}
+
+.mission-image{
+    width: 400px;
+    margin-left: -10em;
+    image {
+        width: 100%;    
+    }
+}
+.mission-text {
+    padding-top: 6em;
+    padding-left: 8em;
+    p {
+        font-size: 24px;
+    }
+}
+.footer{
+    height: 100px;
+    .footer-text {
+        text-align: right;
+        padding-right: 5em;
+    }
+    img {
+        width: 50px;
+        padding-left: 2em;
+    }
+   
+}
+.credit {
+    font-weight: $hairline;
+    height: 25px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color:$black;
+    }
+    .credit-icon{
+        height: 20px;
+        padding-top: 5px;
+        width: 50px;
+    }
 }

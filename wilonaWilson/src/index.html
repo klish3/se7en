@@ -5,220 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <title>Skel Boiler Plate</title>
+    <title>Wilona Wilson Interior Designs</title>
 </head>
 
 <body>
     <!-- Nav -->
-    <div class="row nav-bar u-full-width">
+    <div class="row nav-bar u-full-width animated fadeIn">
         <div class="u-full-width">
-            <img class="u-pull-left logo" src="img/logo.png" alt="logo"> 
-            <span class="brand-name">Brand Name</span>
-
+            <img class="u-pull-left logo" src="img/ww_logo.png" alt="logo">
             <a class="u-pull-right menu-button" id="menu-open-button">
                 <i data-feather="menu"></i>
             </a>
         </div>
     </div>
     <div id="mySidenav" class="sidenav">
-        <a class="closebtn" id="menu-close-button">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="elements.html">Elements</a>
-        <a href="#">Clients</a>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
         <a href="#">Contact</a>
-      </div>
+    </div>
     <!-- Content -->
-    <div class="row u-full-width kli-hero bg-black"> 
+    <div class="row u-full-width kli-hero bg-white animated fadeIn">
+        <div class="hero-text u-full-width ">
+            <h1 class="hairline u-pull-right heading">Contemporay</h1>
+            <h1 class="bold u-pull-right heading">INTERIOR DESIGN</h1>
 
-        <div class="four"></div>
-        <div class="four">
-            <div class="logo">
-                    <img src="img/hero-logo.png" alt="">
-            </div>
-            
-            <p>Welcome the Skel + Webpack Boiler plate project</p>
-            <button id="secret-button">Show the Secret</button>
-            <p id="secret-paragraph">You can't see this all the time</p>
-            
+            <h4 class="hairline u-pull-right heading quote">“Good design is obvious. Great design is transparent.”
+                <br>–Joe Sparano</h4>
         </div>
-        <div class="four"></div>
-
-    </div>
-    <div class="container content">
-        <div class="row u-full-width">
-            
-       
-            
-            <!-- Elements -->
-            <h3 class="animated fadeIn">Animate</h3>
-
-            <!-- FEATHER ICONS -->
-            <label for="">Feather Icons</label>
-            <i data-feather="airplay"></i>
-            <br>
-            <!-- FONTAWESOME -->
-            <label for="">Font Awesome</label>
-            <i class="fa fa-bath" aria-hidden="true"></i>
-            <br>
-            <hr>
-            <!-- HEADING -->
-            <h1>Heading</h1>
-            <h2>Heading</h2>
-            <h3>Heading</h3>
-            <h4>Heading</h4>
-            <h5>Heading</h5>
-            <h6>Heading</h6>
-
-
-            <h2 class="u-pull-left">Left</h2>
-            <h2 class="u-pull-right">Right</h2>
-            <div class="u-cf"></div>
-
-            <!-- BUTTON -->
-            <button>Button</button>
-            <input type="submit" value="Submit">
-            <input type="submit" value="Submit">
-            <a href="" class="button">Link</a>
-            <div class="u-cf"></div>
-
-            <!-- Primary BUTTONS -->
-            <button class="button-primary">Button</button>
-            <input class="button-primary" type="submit" value="Submit">
-            <input class="button-primary" type="submit" value="Submit">
-            <a href="" class="button button-primary">Link</a>
-            <div class="u-cf"></div>
-
-            <!-- FULL WIDTH (not just for buttons) -->
-            <button class="u-full-width button-primary">Full Width Button</button>
-
-            <!-- LISTS -->
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services
-                    <ul>
-                        <li>Salad Toss</li>
-                        <li>Oil Check</li>
-                    </ul>
-                </li>
-                <li>Contact</li>
-            </ul>
-
-            <!-- CODE BLOCK -->
-            <pre>
-        <code>
-            Happiness(mood:Emotion):Emotion {
-                if (mood != 'Happy'){
-                    mood = 'Happy';
-                }
-                return mood;
-            }
-        </code>
-    </pre>
-
-            <!-- TABLES -->
-            <table class="u-full-width">
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Age</th>
-                </tr>
-                <tr>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td>Eve</td>
-                    <td>Jackson</td>
-                    <td>94</td>
-                </tr>
-            </table>
-
-
-
-            <!-- FORM -->
-
-            <label for="">First name:</label>
-            <input class="u-full-width" type="text" name="firstname" value="Mickey">
-            <div class="u-cf"></div>
-            <label for="">Last name:</label>
-            <input class="u-full-width" type="text" name="lastname" value="Mouse">
-            <div class="u-cf"></div>
-            <textarea name="" id="" class="u-full-width" cols="30" rows="10"></textarea>
-            <div class="u-cf"></div>
-            <select name="" id="" class="u-full-width">
-                <option value="">Please Select</option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-            <div class="u-cf"></div>
-            <label for="">
-                <input type="checkbox" name="" id="">
-                <span class="label-body">subscribe to this page</span>
-            </label>
-            <div class="u-cf"></div>
-            <input type="submit" value="Submit">
-            </form>
-
-            <!-- GRID -->
-
-            <div class="row">
-                <div class="eight columns">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
-                    cum. Enim atque libero aperiam laborum earum?
-                </div>
-                <div class="four columns">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
-                    cum. Enim atque libero aperiam laborum earum?
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="six columns">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
-                    cum. Enim atque libero aperiam laborum earum?
-                </div>
-                <div class="six columns">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse beatae ullam ipsam illum non eaque magnam sed assumenda alias
-                    quod ipsum inventore numquam tenetur rerum dolorem vitae, temporibus pariatur ut unde, fugit molestiae
-                    cum. Enim atque libero aperiam laborum earum?
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="one-third column">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-                </div>
-                <div class="one-third column">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-                </div>
-                <div class="one-third column">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="one-half column">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-                </div>
-                <div class="one-half column">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae.
-                </div>
-            </div>
-
-
+        <div class="hero-image u-pull-right animated fadeIn">
+            <img src="img/heading-image.png" alt="Welcome">
         </div>
     </div>
+    <div class="row u-full-width kli-jumbo bg-white">
+        <div class="our-story u-full-width">
+            <div class="six columns">
+                <div class="story-text u-pull-left">
+                    <h2>Our Story</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet reiciendis similique quasi nulla cum nobis?
+                        Tempore iste aspernatur ducimus consectetur repellat totam obcaecati numquam, excepturi consequatur
+                        odio. Voluptatum incidunt, totam autem nulla placeat asperiores dicta architecto ab fugit quos atque
+                        debitis! Ab soluta corrupti sequi voluptate asperiores odio iste rerum.</p>
+                </div>
+            </div>
+            <div class="six columns">
+                <div class="story-image u-pull-right">
+                    <img src="img/story-image.jpg" alt="Welcome">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row u-full-width kli-jumbo bg-white">
+        <div class="our-story u-full-width">
 
+            <div class="six columns">
+                <div class="mission-image u-pull-left">
+                    <img src="img/mission-image.jpg" alt="Welcome">
+                </div>
+            </div>
+        </div>
+        <div class="six columns">
+            <div class="mission-text u-pull-right">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet reiciendis similique quasi nulla cum nobis?
+                    Tempore iste aspernatur ducimus consectetur repellat totam obcaecati numquam, excepturi consequatur odio.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="two columns">
+            <img src="img/ww_logo.png" alt="ww_logo">
+        </div>
+        <div class="five columns footer-text">
+            <p>
+                Chroma
+                <br> 3647 23rd Street
+                <br> San Francisco, CA 94110
+            </p>
+        </div>
+        <div class="five columns footer-text">
+            <p>415.252.5700
+                <br> info@chromasf.com
+                <br> Instagram / Pinterest / Facebook</p>
+        </div>
+    </div>
+    <div class="row credit"> made by <a href="http://kliative.io">Kliative</a>
+    </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-<script>
-    feather.replace()
-</script>
-
 </html>

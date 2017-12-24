@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
 
 //weights
+$hairline: 100;
 $thin: 300;
 $regular: 400;
 $bold: 900;
@@ -11,4 +12,18 @@ body {
 
 p {
     font-weight: $thin;
+}
+.hairline {
+    font-weight: $hairline;
+}
+.thin {
+    font-weight: $thin;
+}
+
+.regular {
+    font-weight: $regular;
+}
+
+.bold {
+    font-weight: $bold;
 }
