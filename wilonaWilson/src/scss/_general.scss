@@ -1,0 +1,162 @@
+body {
+    margin: 8px 0;
+    overflow-x: hidden;
+}
+img {
+    width: 100%;
+}
+
+
+// Nav Bar
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    padding: 1em;    
+    background-color: transparent;
+    // box-shadow:2px 2px 5px 1px rgba(283,283,283,.5);
+
+    .menu-button {
+        padding-top: 5px;
+        color: $black;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+        
+        img {
+            height: 100%;
+        }
+    }
+    .brand-name {
+        line-height: 30px;
+        padding-left: 10px;
+        font-size: 1.3rem;
+    }
+}
+
+// Conatiner
+.content {
+    margin-top: 100px;
+}
+.half-kli-hero{
+    min-height: 50vh;
+    text-align: center;
+    font-size: 2rem;
+    color: $white;
+    h1 {
+        padding-top: 10%;
+    }
+}
+.kli-jumbo {
+    min-height: 100vh;
+    font-size: 2rem;
+    color: $black;
+    padding: 2em 10em;
+}
+.kli-hero{
+
+    min-height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+    color: $black;
+    padding-top: 10%;
+    .logo {
+        vertical-align: middle;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+
+        
+        padding-bottom: 2em;
+        img{
+            height: 100%;
+        }
+    }
+
+    .hero-text {
+        height: 5em;
+        text-align: right;
+        padding-right: 5em;
+        .heading {
+            width: 100%;
+            margin-bottom: 0rem;
+            &:nth-child(1){
+                font-size: 3.7em;
+            }
+        }
+        .quote {
+            margin-top: 5rem;
+            color: $lightGrey;
+            font-size: 2em;
+        }
+    }
+    .hero-image {
+        width: 1000px;
+        img {
+            width: 90%;
+        }
+    }
+
+}
+.bg-black{
+    background-color: $black;
+}
+
+.bg-white{
+    background-color: $white;
+}
+
+.story-image{
+    width: 600px;
+    margin-left: -10em;
+    img {
+        padding-left: 300px;    
+    }
+}
+.story-text {
+    padding-top: 6em;
+    p {
+        font-size: 24px;
+    }
+}
+
+.mission-image{
+    width: 600px;
+    img { 
+        padding-right: 300px;     
+    }
+}
+.mission-text {
+    padding-top: 6em;
+    padding-left: 8em;
+    p {
+        font-size: 24px;
+    }
+}
+.footer{
+    height: 100px;
+    .footer-text {
+        text-align: right;
+        padding-right: 5em;
+    }
+    img {
+        width: 50px;
+        padding-left: 2em;
+    }
+   
+}
+.credit {
+    font-weight: $hairline;
+    height: 25px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color:$black;
+    }
+    .credit-icon{
+        height: 20px;
+        padding-top: 5px;
+        width: 50px;
+    }
+}

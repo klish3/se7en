@@ -14,20 +14,74 @@ Mobile: 400px
 */
 
 /* Smaller than mobile */
-@media (max-width: 400px) {
+@media (min-width: 400px) {
     // .logo {
     //     display: none;
     // }
+    .hero-image-bath{
+        display: block;
+        margin: 2em 0;
+    }
+    .hero-image,
+    .story-image{
+        display: none;
+    }
+    .kli-hero {.hero-text{ .heading:nth-child(1) {
+        font-size: 60px;
+    }}}
+    .kli-hero {.hero-text {.quote {
+        margin-bottom: 5rem;
+    }}}
+    .kli-jumbo {
+        min-height: 100vh;
+        font-size: 2rem;
+        color: #000;
+        padding: 0em;
+    }
+    .story-text {
+        padding-top: 0em;
+        padding: 1em;
+    }
+    .story-image-kitchen {
+        width: 100%;
+    }
+    .mission-text {
+        padding: 1em; 
+    }
+    .mission-image {
+        margin-top: -0.5em; 
+    }
+    .footer {
+        img {
+            width: 50px;
+            padding-right: 5em;
+            float: right;
+        }
+    }
 }
 
 /* Smaller than phablet */
-@media (max-width: 550px) {}
+@media (min-width: 550px) {
+    
+}
 
 /* Smaller than tablet */
-@media (max-width: 750px) {}
+@media (min-width: 750px) {
+    
+}
 
 /* Smaller than desktop */
-@media (max-width: 1000px) {}
+@media (min-width: 1000px) {
+
+}
 
 /* Smaller than Desktop HD */
-@media (max-width: 1200px) {}
+@media (min-width: 1200px) {
+    .hero-image-bath{
+        display: none;
+    }
+    .hero-image{
+        display: block;
+    }
+    
+}
