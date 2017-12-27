@@ -1,4 +1,3 @@
-
 /* 
 
 Mobile first queries
@@ -15,42 +14,63 @@ Mobile: 400px
 
 /* Smaller than mobile */
 @media (min-width: 400px) {
-    // .logo {
-    //     display: none;
-    // }
-    .hero-image-bath{
+    .hero-image-bath {
         display: block;
         margin: 2em 0;
     }
+
     .hero-image,
-    .story-image{
+    .story-image,
+    .mission-image {
         display: none;
     }
-    .kli-hero {.hero-text{ .heading:nth-child(1) {
-        font-size: 60px;
-    }}}
-    .kli-hero {.hero-text {.quote {
-        margin-bottom: 5rem;
-    }}}
+
+    .kli-hero {
+        .hero-text {
+            text-align: right;
+            padding: 0 1em;
+            .heading:nth-child(1) {
+                font-size: 60px;
+            }
+        }
+    }
+
+    .kli-hero {
+        .hero-text {
+            .quote {
+                margin-bottom: 5rem;
+            }
+        }
+    }
+
     .kli-jumbo {
-        min-height: 100vh;
+        min-height: auto;
         font-size: 2rem;
         color: #000;
         padding: 0em;
     }
+
     .story-text {
         padding-top: 0em;
         padding: 1em;
     }
+
     .story-image-kitchen {
         width: 100%;
     }
+
     .mission-text {
-        padding: 1em; 
+        padding: 1em;
     }
+
     .mission-image {
-        margin-top: -0.5em; 
+        margin-top: -0.5em;
     }
+
+    .mission-image-counter {
+        margin-bottom: 3em;
+    }
+
     .footer {
         img {
             width: 50px;
@@ -62,26 +82,65 @@ Mobile: 400px
 
 /* Smaller than phablet */
 @media (min-width: 550px) {
-    
+    .story-image-kitchen {
+        width: 200%;
+    }
+
+    .mission-image {
+        display: block;
+        margin-left: -10%;
+        width: 100%;
+
+        img {
+            margin-top: 2em;
+        }
+        margin-bottom: 3em;
+    }
+
+    .mission-image-counter {
+        display: none;
+    }
+
+    .footer {
+        img {
+            float: none;
+        }
+    }
 }
 
 /* Smaller than tablet */
-@media (min-width: 750px) {
-    
-}
+@media (min-width: 750px) {}
 
 /* Smaller than desktop */
-@media (min-width: 1000px) {
-
-}
+@media (min-width: 1000px) {}
 
 /* Smaller than Desktop HD */
 @media (min-width: 1200px) {
-    .hero-image-bath{
+    .hero-image-bath {
         display: none;
     }
-    .hero-image{
+
+    .hero-image {
         display: block;
     }
-    
+
+    .mission-image {
+        display: block;
+        margin-left: -10%;
+    }
+
+    .mission-image-counter {
+        display: none;
+        margin-left: 0;
+        margin-bottom: 2em;
+    }
+    .story-image-kitchen {
+        width: 100%;
+    }
+    .story-text{
+        padding: 1em 2em;
+    }
+    .mission-text {
+        padding: 1em 2em 1em 0em;
+    }
 }
