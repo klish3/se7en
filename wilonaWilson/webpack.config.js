@@ -71,10 +71,6 @@ module.exports = {
             filename: 'index.html',
             template: 'src/index.html'
         }),
-        new HtmlWebpackPlugin({
-            filename: 'elements.html',
-            template: 'src/elements.html'
-        }),
         new CleanWebpackPlugin(['dist'])
     ]
 };
