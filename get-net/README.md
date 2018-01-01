@@ -16,4 +16,10 @@ Fonts
 <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">  
 font-family: 'Asap', sans-serif;  
 ```
+## Colors
 
+Yellow  
+r:255 g:204 b:00 #FFCC00  
+  
+Green
+r:102 g:204 b:51 #66CC33  
