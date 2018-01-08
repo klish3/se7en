@@ -1,11 +1,15 @@
+
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route, browserHistory } from "react-router-dom";
+
 import { Root } from "./components-route/Root";
 import { Home } from "./components-route/Home";
 import { User } from "./components-route/User";
 
+
 import 'bootstrap/dist/css/bootstrap.css';
+import '../scss/styles.scss';
 
 class App extends React.Component {
     render() {

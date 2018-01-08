@@ -5,18 +5,22 @@ import { NavLink } from "react-router-dom";
 export const Header = (props) => {
     return (
 
-        <nav className="navbar navbar-default">
+        <nav className="navbar">
             <div className="container-fluid">
                 <div className="navbar-header">
-                    <p className="navbar-brand"><NavLink to={"/home"}>Get-Net</NavLink> | Telecommunications Operator</p>
+                    <p className="navbar-identity">
+                        <NavLink to={"/home"}>
+                            <img className="nav-logo" src={require('../../img/get-net-logo.png')} />
+                        </NavLink> | <span className="nav-brandname"> Telecommunications Operator </span>
+                    </p>
                 </div>
-                <ul className="nav navbar-nav">
-                    <li><NavLink to={"/home"} activeStyle={{ color: "red" }}>Get the Internet</NavLink></li>
-                    <li><NavLink to={"/home"} activeStyle={{ color: "red" }}>Our Network</NavLink></li>
-                    <li><NavLink to={"/home"} activeStyle={{ color: "red" }}>Our partners</NavLink></li>
-                    <li><NavLink to={"/home"} activeStyle={{ color: "red" }}>Contact Us</NavLink></li>
-                    <li><NavLink to={"/user/10"} activeClassName="active">EN</NavLink></li>
-                    <li><NavLink to={"/user/10"} activeClassName="active">EN</NavLink></li>
+                <ul className="nav nav-pills pull-right">
+                    <li><NavLink to={"/GetInternet"} activeStyle={{ color: "red" }}>Get the Internet</NavLink></li>
+                    <li><NavLink to={"/OurNetwork"} activeStyle={{ color: "red" }}>Our Network</NavLink></li>
+                    <li><NavLink to={"/OurPartners"} activeStyle={{ color: "red" }}>Our partners</NavLink></li>
+                    <li><NavLink to={"/ContactUs"} activeStyle={{ color: "red" }}>Contact Us</NavLink></li>
+                    <li>EN</li>
+                    <li><NavLink to={"/Call"} activeClassName="active"><img className="nav-phone" src={require('../../img/get-net-phone-icon.png')} /></NavLink></li>
                 </ul>
             </div>
         </nav>

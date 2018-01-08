@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(245,245,245);
+}
+
+.nav {
+    .nav-pills{
+        
+        li {
+            padding-left: 1em;
+            a:hover {
+                text-decoration: none;
+                color:#000;
+            }
+        }
+    }
+}
+.header {
+    height:100vh;
+}
+
+//nav
+.navbar-identity {
+    font-weight: $regular;
+    padding: 20px 10px 0px 10px;
+    color: darkgrey;
+    .nav-brandname {
+        font-size: 1.2rem;
+    }
+}
+.nav-logo {
+    padding-right: 3em;
+    width: 200px;
+    margin-top: -5px;
+    
+}
+.nav {
+    padding-top: 18px;
+}
+.nav-phone{
+    width: 25px;
+    margin-top: -5px;
+}
+
+
+
+.nav > li > a:hover {
+    background-color:none!important;
+}
+
+//heading
+.gn-header {
+    height: 100vh;
+    background: url('../img/get-net-background.png') no-repeat;
+    background-position: center right;
+    background-size: contain;
+
+    .heading-text {
+        font-size: 10rem;
+        padding-top: 200px;
+        padding-left: 2rem;
+    }
+    .head-service {
+        color: black;
+        font-weight: $regular;
+    }
+    .head-bus {
+        color: $gnGreen;
+        font-weight: $regular;
+    }
+}
+.gn-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}

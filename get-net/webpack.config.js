@@ -10,6 +10,7 @@ var extractPlugin = new ExtractTextPlugin({
     filename: 'main.css'
 });
 
+
 var config = {
     entry: SRC_DIR + '/app/index.js',
     output: {
@@ -28,9 +29,10 @@ var config = {
                 }
             },
             {
-                test: /\.scss$/,
-                use: extractPlugin.extract({
-                    use: ['css-loader', 'sass-loader']
+                test: /\.(scss|css)$/,
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: ['css-loader', 'sass-loader','sass-loader']
                 })
             },
             {
@@ -45,7 +47,7 @@ var config = {
                         options: {
                             name: '[name].[ext]',
                             outputPath: 'img/',
-                            publicPath:'img/'
+                            // publicPath:'img/'
                         }
                     }
                 ]
@@ -62,6 +64,7 @@ var config = {
         ]
     },
     plugins: [
+        extractPlugin,
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery'
